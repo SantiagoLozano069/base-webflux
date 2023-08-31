@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  security-gateway:
+    build:
+      context: ./security-gateway
+      dockerfile: Dockerfile
+    container_name: security-gateway
+    image: security-gateway:latest
+    ports:
+      - "8081:8081"
+    links:
+      - user_management
+  user_management:
+    build:
+      context: ./user-management
+      dockerfile: Dockerfile
+    container_name: user-management
+    image: user-management:latest
+    ports:
+      - "8080:8080"
+    links:
+      - mongo
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
