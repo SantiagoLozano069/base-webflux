@@ -1,0 +1,7 @@
+com\project\test\securitygateway\repository\UserRepositoryTest.class
+com\project\test\securitygateway\service\impl\LoginServiceImplTest.class
+com\project\test\securitygateway\controller\UserControllerTest.class
+com\project\test\securitygateway\repository\AbstractRepositoryTest.class
+com\project\test\securitygateway\SecurityGatewayApplicationTests.class
+com\project\test\securitygateway\service\impl\UserServiceImplTest.class
+com\project\test\securitygateway\controller\LoginControllerTest.class

@@ -1,0 +1,3 @@
+com\project\test\usermanagement\UserManagementApplicationTests.class
+com\project\test\usermanagement\controller\UserControllerTest.class
+com\project\test\usermanagement\service\UserServiceTest.class

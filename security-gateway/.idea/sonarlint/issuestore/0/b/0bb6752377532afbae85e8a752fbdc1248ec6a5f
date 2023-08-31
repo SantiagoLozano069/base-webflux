@@ -1,0 +1,6 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ËÒÔÃþÿÿÿÿ8¸àØ¿¤1
+y
+java:S1128"]Remove this unused import 'com.project.test.securitygateway.exception.UnauthorizedException'.(µ©Õ8™Šá¿¤1
+b
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8™Šá¿¤1
